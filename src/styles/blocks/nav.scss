@@ -1,0 +1,39 @@
+.nav {
+  &__list {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+
+    list-style: none;
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    margin: 0 10px;
+  }
+
+  &__link {
+    position: relative;
+    display: inline-block;
+    line-height: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $text-main-color;
+  }
+
+  &__item:first-child {
+    margin-left: 0;
+  }
+
+  &__item:last-child {
+    margin-right: 0;
+  }
+
+  .is-active,
+  &__link:hover {
+    color: $button-bgc-color;
+  }
+}

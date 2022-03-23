@@ -1,3 +1,38 @@
+@import "./utils/variables";
+
+@import "./blocks/page.scss";
+@import "./blocks/header.scss";
+@import "./blocks/nav.scss";
+
+@import "./blocks/main.scss";
+@import "./blocks/cards.scss";
+@import "./blocks/card.scss";
+@import "./blocks/review.scss";
+@import "./blocks/star.scss";
+@import "./blocks/price.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
 body {
   margin: 0;
+}
+
+.is-active::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  content: "";
+
+  border-radius: 8px;
+  height: 4px;
+
+  background-color: $button-bgc-color;
 }

@@ -7,18 +7,15 @@
   padding: 50px 0;
 
   &__card {
-    margin: $card-gapY $card-gapX 0 0;
+    margin-right: $card-gapX;
+    margin-top: $card-gapY;
 
     &:nth-child(-n + 4) {
-      margin: 0 $card-gapX 0 0;
+      margin-top: 0;
     }
 
     &:nth-child(4n) {
-      margin: 0;
-    }
-
-    &:nth-child(4n):not(:nth-child(4)) {
-      margin: $card-gapY 0 0 0;
+      margin-right: 0;
     }
   }
 }

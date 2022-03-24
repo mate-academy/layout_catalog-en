@@ -1,0 +1,13 @@
+.main-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 1200px;
+  padding-top: 4px;
+
+  // top padding and margin adds to 50px
+  &__card {
+    margin: 46px 24px 0;
+  }
+}

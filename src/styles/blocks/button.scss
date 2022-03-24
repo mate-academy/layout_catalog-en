@@ -1,0 +1,26 @@
+@import "../utils/variables";
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: $card-inside-width;
+  height: 40px;
+
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: $button-link-color;
+
+  color: #fff;
+  text-decoration: none;
+  font-size: $font-size-medium;
+  font-weight: 700;
+  line-height: $line-height-large;
+}
+
+.button:hover {
+  background-color: #fff;
+  border-color: $button-link-color;
+  color: $button-link-color;
+}

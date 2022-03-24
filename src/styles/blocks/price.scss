@@ -1,0 +1,22 @@
+@import "../utils/variables";
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: $margin-top-medium;
+
+  width: $card-inside-width;
+  line-height: $line-height-large;
+}
+
+.price__text {
+  color: $p-light-color;
+}
+
+.price__value {
+  font-size: $font-size-large;
+  font-weight: bold;
+  color: $p-dark-color;
+}

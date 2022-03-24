@@ -1,0 +1,10 @@
+.review {
+  &__stars {
+    display: flex;
+  }
+
+  &__count {
+    padding-right: 16px;
+    font-size: 10px;
+  }
+}

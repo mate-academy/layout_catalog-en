@@ -1,3 +1,12 @@
+@import "utils/variables";
+@import "blocks/navigation/header";
+@import "blocks/navigation/nav";
+
+html {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
 body {
   margin: 0;
 }

@@ -22,6 +22,10 @@
     text-decoration: none;
     text-transform: uppercase;
     color: $text-main-color;
+
+    &:hover {
+      color: $button-bgc-color;
+    }
   }
 
   &__item:first-child {
@@ -31,9 +35,22 @@
   &__item:last-child {
     margin-right: 0;
   }
+}
 
-  .is-active,
-  &__link:hover {
-    color: $button-bgc-color;
+.is-active {
+  color: $button-bgc-color;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    content: "";
+
+    border-radius: 8px;
+    height: 4px;
+
+    background-color: $button-bgc-color;
   }
 }

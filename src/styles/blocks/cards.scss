@@ -1,12 +1,12 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  width: 1024px;
-  padding: 50px 40px;
+  width: (4 * $card-width) + (3 * $card-gapX);
+  padding: 50px 0 70px;
 
   &__card {
-    margin-right: 48px;
-    margin-top: 46px;
+    margin-right: $card-gapX;
+    margin-top: $card-gapY;
 
     &:nth-child(4n) {
       margin-right: 0;

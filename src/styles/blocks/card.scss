@@ -6,7 +6,7 @@
   font-weight: $font-weight-regular;
   color: $text-main-color;
 
-  width: 200px;
+  width: $card-width;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
   padding: 32px 16px 16px;
@@ -21,7 +21,7 @@
     margin-top: 40px;
     margin-bottom: 0;
 
-    font-size: 12px;
+    font-size: $main-font-size;
     line-height: 18px;
     font-weight: $font-weight-medium;
   }

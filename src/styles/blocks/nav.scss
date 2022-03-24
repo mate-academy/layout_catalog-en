@@ -1,8 +1,5 @@
-@import "../variables";
-
 .nav {
   font-weight: 500;
-  color: #000;
 
   &__list {
     display: flex;
@@ -31,7 +28,7 @@
     display: inline-block;
     height: 60px;
     line-height: 60px;
-    color: #000;
+    color: $primary-text-color;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;

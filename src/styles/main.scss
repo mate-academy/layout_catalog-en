@@ -7,13 +7,13 @@ body {
   margin: 0;
 }
 
-@import "../styles/header_blocks/header";
-@import "../styles/header_blocks/logo";
-@import "../styles/header_blocks/nav";
+@import "./utils/variables";
+@import "./blocks/header";
+@import "./blocks/nav";
 
-@import "../styles/main_blocks/main_block";
-@import "../styles/main_blocks/container";
-@import "../styles/main_blocks/review";
-@import "../styles/main_blocks/card";
-@import "../styles/main_blocks/price";
-@import "../styles/main_blocks/stars";
+@import "./blocks/main_block";
+@import "./blocks/container";
+@import "./blocks/review";
+@import "./blocks/card";
+@import "./blocks/price";
+@import "./blocks/stars";

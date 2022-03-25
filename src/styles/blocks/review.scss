@@ -8,9 +8,9 @@
 
   &__num {
     display: flex;
-    font-size: 10px;
+    font-size: $secondary-extra-sm-font;
     line-height: 14px;
-    font-weight: 400;
-    color: #060b35;
+    font-weight: $font-weight-normal;
+    color: $text-primary-color;
   }
 }

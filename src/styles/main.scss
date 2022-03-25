@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import "./utils/variables";
+
 @import "./blocks/product.scss";
 @import "./blocks/review.scss";
 @import "./blocks/stars.scss";
 @import "./blocks/header.scss";
 @import "./blocks/nav.scss";
-@import "./blocks/mainn.scss";
+@import "./blocks/main-content.scss";
 @import "./blocks/products.scss";
 
 * {
@@ -25,7 +27,7 @@ p {
     margin: 0 auto;
   }
 
-  &__main {
+  &__main-content {
     margin: 0 auto;
   }
 }

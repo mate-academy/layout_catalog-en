@@ -7,14 +7,14 @@
     height: 12px;
     background: url("../images/star.svg");
     background-size: cover;
-  }
 
-  &__star:first-child {
-    margin-left: 0;
-  }
+    &:first-child {
+      margin-left: 0;
+    }
 
-  &__star:last-child {
-    margin-right: 0;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 
   &--1 :nth-child(1),

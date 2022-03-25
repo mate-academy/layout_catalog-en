@@ -9,10 +9,9 @@
     border-radius: 5px;
     margin-top: $card-gapY;
     margin-right: $card-gapX;
-  }
 
-  &__card:nth-child(4n) {
-    margin-right: 0;
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
   }
-
 }

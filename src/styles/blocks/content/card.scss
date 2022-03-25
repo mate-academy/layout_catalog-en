@@ -59,11 +59,11 @@
     text-decoration: none;
     text-transform: uppercase;
     color: $white;
-  }
 
-  &__button:hover {
-    border-color: $light-blue;
-    background-color: $white;
-    color: $light-blue;
+    &:hover {
+      border-color: $light-blue;
+      background-color: $white;
+      color: $light-blue;
+    }
   }
 }

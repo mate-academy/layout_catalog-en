@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: $card-width;
   padding-top: 32px;
   padding-bottom: 16px;
 

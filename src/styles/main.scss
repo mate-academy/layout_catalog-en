@@ -1,3 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import "./utils/variables";
+
+@import "./blocks/page.scss";
+@import "./blocks/header.scss";
+@import "./blocks/nav.scss";
+
+@import "./blocks/main.scss";
+@import "./blocks/cards.scss";
+@import "./blocks/card.scss";
+@import "./blocks/review.scss";
+@import "./blocks/star.scss";
+@import "./blocks/price.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
 body {
   margin: 0;
 }

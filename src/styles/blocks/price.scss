@@ -9,14 +9,14 @@
 
   &__text {
     margin: 0;
-    font-size: $main-font-size;
+    font-size: $font-size-regurlar;
 
     color: $text-secondary-color;
   }
 
   &__amount {
     margin: 0;
-    font-size: 16px;
+    font-size: $font-size-large;
     font-weight: $font-weight-bold;
   }
 }

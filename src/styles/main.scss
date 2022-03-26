@@ -1,3 +1,8 @@
-body {
-  margin: 0;
-}
+@import url("/styles/utils/variables.scss");
+@import url("/styles/utils/normalize.scss");
+@import url("/styles/utils/reset.scss");
+
+/*Blocks*/
+@import url("/styles/blocks/header.scss");
+@import url("/styles/blocks/page-content.scss");
+@import url("/styles/blocks/stars.scss");

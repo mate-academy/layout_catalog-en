@@ -1,0 +1,20 @@
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px $main-axis-indent;
+  width: $catalog-width;
+  margin: 0 auto;
+
+  &__item {
+    margin-right: $items-X-axis-gap;
+    margin-bottom: $items-Y-axis-gap;
+
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+
+    &:nth-child(-n+4) {
+      margin-top: 0;
+    }
+  }
+}

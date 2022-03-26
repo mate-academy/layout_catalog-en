@@ -1,0 +1,19 @@
+$logo-size: 40px;
+$stars-size: 12px;
+
+$items-width: 200px;
+$items-X-axis-gap: 48px;
+$items-Y-axis-gap: 46px;
+$main-axis-indent: 40px;
+$catalog-width: (4 * $items-width)
+  + (3 * $items-X-axis-gap)
+  + (2 * $main-axis-indent);
+
+$normal-font-weight: 400;
+$medium-font-weight: 500;
+$bold-font-weight: 700;
+
+$smallest-font-size: 10px;
+$small-font-size: 12px;
+$medium-font-size: 14px;
+$default-font-size: 16px;

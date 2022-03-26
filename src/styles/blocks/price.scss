@@ -1,0 +1,17 @@
+.price {
+  &__text {
+    margin: 0;
+
+    font-size: $small-font-size;
+    font-weight: $normal-font-weight;
+    color: #616070;
+  }
+
+  &__numbers {
+    margin: 0;
+
+    font-size: $default-font-size;
+    font-weight: $bold-font-weight;
+    color: #060b35;
+  }
+}

@@ -40,7 +40,7 @@
         font-size: 12px;
         line-height: 18px;
         font-weight: 500;
-        color: var(--main-text-color);
+        color: $main-text-color;
       }
 
       &-code {
@@ -58,7 +58,7 @@
         &-count {
           font-size: 10px;
           font-weight: 400;
-          color: var(--main-text-color);
+          color: $main-text-color;
         }
       }
 
@@ -78,7 +78,7 @@
         &-value {
           font-weight: 700;
           font-size: 16px;
-          color: var(--main-text-color);
+          color: $main-text-color;
         }
       }
 
@@ -91,19 +91,19 @@
         align-self: center;
         margin: 0;
 
-        background: var(--primary-color);
+        background: $primary-color;
         text-decoration: none;
-        border: 1px solid var(--primary-color);
+        border: 1px solid $primary-color;
         border-radius: 5px;
         text-align: center;
-        color: var(--white-color);
+        color: $white-color;
         font-weight: 700;
         font-size: 14px;
         text-transform: uppercase;
 
         &:hover {
-          background-color: var(--white-color);
-          color: var(--primary-color);
+          background-color: $white-color;
+          color: $primary-color;
         }
       }
     }

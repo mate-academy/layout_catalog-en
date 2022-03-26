@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
-  background: var(--white-color);
+  background: $white-color;
 }
 
 .logo {
@@ -45,25 +45,24 @@
     text-decoration: none;
     text-transform: uppercase;
     transition: color 0.3s;
-    color: var(--main-text-color);
+    color: $main-text-color;
   }
 
   .is-active {
-    color: var(--primary-color);
-  }
-
-  .is-active::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--primary-color);
+    color: $primary-color;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      border-radius: 2px;
+      background-color: $primary-color;
+    }
   }
 
   &__link:hover {
-    color: var(--primary-color);
+    color: $primary-color;
   }
 }

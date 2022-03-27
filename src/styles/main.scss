@@ -1,3 +1,9 @@
-body {
-  margin: 0;
-}
+@import "Utilities/variables.scss";
+@import "Utilities/mixins.scss";
+@import "Utilities/normalize.scss";
+
+@import "Blocks/header.scss";
+@import "Blocks/nav.scss";
+@import "Blocks/stars.scss";
+@import "Blocks/cards.scss";
+@import "Blocks/card.scss";

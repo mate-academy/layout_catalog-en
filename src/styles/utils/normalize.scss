@@ -4,8 +4,8 @@
 
 html {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-weight: $normal-font-weight;
+  font-size: $normal-font-size;
+  line-height: $normal-line-height;
   color: var(--text-secondary-color);
 }

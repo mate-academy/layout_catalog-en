@@ -35,14 +35,14 @@
 
       &-name {
         margin-bottom: 4px;
-        line-height: 18px;
-        font-weight: 500;
+        line-height: $large-line-height;
+        font-weight: $medium-font-weight;
         color: $main-text-color;
       }
 
       &-code {
         margin-bottom: 16px;
-        font-size: 10px;
+        font-size: $small-font-size;
       }
 
       &-reviews {
@@ -52,7 +52,7 @@
         margin-bottom: 24px;
 
         &-count {
-          font-size: 10px;
+          font-size: $small-font-size;
           color: $main-text-color;
         }
       }
@@ -61,7 +61,7 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 16px;
-        line-height: 18px;
+        line-height: $large-line-height;
 
         &-label {
           display: flex;
@@ -69,8 +69,8 @@
         }
 
         &-value {
-          font-weight: 700;
-          font-size: 16px;
+          font-weight: $large-font-weight;
+          font-size: $large-font-size;
           color: $main-text-color;
         }
       }
@@ -89,8 +89,8 @@
         border-radius: 5px;
         text-align: center;
         color: $white-color;
-        font-weight: 700;
-        font-size: 14px;
+        font-weight: $large-font-weight;
+        font-size: $medium-font-size;
         text-transform: uppercase;
 
         &:hover {

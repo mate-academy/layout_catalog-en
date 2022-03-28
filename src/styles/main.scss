@@ -1,3 +1,19 @@
+@import "blocks/header";
+@import "blocks/card";
+@import "blocks/cards";
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+  --blue-accent: #00acdc;
+
 }

@@ -9,9 +9,7 @@
   border: 1px solid #f3f3f3;
   border-radius: 5px;
 
-  transition: 400ms;
-
-  &__imac-image {
+  &__image {
     width: 160px;
     height: 134px;
 
@@ -41,6 +39,14 @@
     color: $p-light-color;
     font-size: $font-size-small;
     line-height: $line-height-small;
+  }
+
+  &__review {
+    margin-top: $margin-top-small;
+  }
+
+  &__price {
+    margin-top: $margin-top-medium;
   }
 
   &__button {

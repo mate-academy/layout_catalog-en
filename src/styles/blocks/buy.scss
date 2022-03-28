@@ -1,0 +1,20 @@
+.buy {
+  display: inline-block;
+  background-color: $main-card-color;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 12px 69px 12px 70px;
+  color: $hover-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.buy:hover {
+  background-color: $hover-color;
+  color: $main-card-color;
+  border-color: $main-card-color;
+}

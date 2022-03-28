@@ -1,0 +1,50 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: $normal-font;
+}
+
+.nav {
+  &__list {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  &__item {
+    margin-right: 20px;
+    position: relative;
+  }
+
+  &__item:last-child {
+    margin-right: 0;
+  }
+
+  &__link {
+    height: 60px;
+    line-height: 60px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+  }
+
+  &__link:hover {
+    color: $main-card-color;
+  }
+
+}
+.is-active {
+  color: $main-card-color;
+}
+
+.is-active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: $main-card-color;
+  border-radius: 8px;
+}

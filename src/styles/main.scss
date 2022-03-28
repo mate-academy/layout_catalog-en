@@ -1,3 +1,12 @@
+@import "./utils/variables";
+@import "./blocks/nav.scss";
+@import "./blocks/header.scss";
+@import "./blocks/buy.scss";
+@import "./blocks/card.scss";
+@import "./blocks/stars.scss";
+@import "./blocks/product-container.scss";
+
 body {
   margin: 0;
+  box-sizing: border-box;
 }

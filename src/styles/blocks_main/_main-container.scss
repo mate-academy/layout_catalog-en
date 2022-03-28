@@ -1,0 +1,11 @@
+@import "variables";
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 1024px;
+  margin: 0 auto;
+  padding-top: 4px;
+}

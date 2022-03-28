@@ -1,3 +1,15 @@
+@import "variables";
+@import "blocks_header/header";
+@import "blocks_header/logo";
+@import "blocks_header/nav";
+@import "blocks_main/main-container";
+@import "blocks_main/price";
+@import "blocks_main/card";
+@import "blocks_main/stars";
+
 body {
+  box-sizing: border-box;
+  font-family: $main-font;
   margin: 0;
+  padding: 0;
 }

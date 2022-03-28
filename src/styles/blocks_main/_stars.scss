@@ -1,0 +1,24 @@
+@import "variables";
+
+.stars {
+  &__star {
+    background-image: url("../images/star.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+    margin: 2px 6px 2px 2px;
+  }
+
+  &__review {
+    text-align: center;
+    font-weight: 400;
+    font-size: $card-review-font-size;
+    color: $color-main-accent;
+    margin: auto 0 0 auto;
+  }
+
+  & :nth-child(-n+4) {
+    background-image: url("../images/star-active.svg");
+  }
+}

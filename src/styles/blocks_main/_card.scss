@@ -1,0 +1,83 @@
+@import "variables";
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 166px;
+  border: 1px solid $border-color;
+  background: $white;
+  border-radius: $border-radius;
+  padding: 32px 16px 16px;
+  margin-right: 48px;
+  margin-top: 46px;
+
+  &__image {
+    width: 160px;
+    height: 134px;
+    margin: auto;
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: $nav-font-size;
+    line-height: 18px;
+    color: $color-main-accent;
+    margin: 40px 0 0;
+  }
+
+  &__code {
+    font-weight: 400;
+    font-size: $card-review-font-size;
+    line-height: 14px;
+    color: $color-secondary;
+    margin: 4px 0 0;
+  }
+
+  &__stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 16px;
+    margin-top: 16px;
+  }
+
+  &__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 18px;
+    font-size: 16px;
+    margin-top: 24px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $color-hover-button;
+    text-decoration: none;
+    background-color: $color-hover-button;
+    color: $white;
+    padding: 11px 0;
+    border-radius: $border-radius;
+    margin-top: 16px;
+    font-size: $button-font-size;
+    font-weight: 700;
+    line-height: 16px;
+  }
+
+  &__button:hover {
+    color: $color-hover-button;
+    background-color: $white;
+    border: 1px solid $color-hover-button;
+  }
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+}

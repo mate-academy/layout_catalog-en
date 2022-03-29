@@ -6,11 +6,13 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  padding: 11px 69px 11px 70px;
+  width: 166px;
+  height: 40px;
   color: $hover-color;
   text-decoration: none;
   text-transform: uppercase;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .buy:hover {

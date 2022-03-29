@@ -1,0 +1,63 @@
+@import "../utils/variables";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  &__logo {
+    margin-top: 3px;
+    align-self: center;
+  }
+
+  .nav {
+    &__list {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    &__item {
+      position: relative;
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &__link {
+      display: flex;
+      text-transform: uppercase;
+      transition: color 0.3s;
+      height: $fixed-height;
+      line-height: $fixed-height;
+      text-decoration: none;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 600;
+      color: $high-blue-color;
+
+      &:hover {
+        color: $primary-color;
+      }
+
+      &.is-active {
+        color: $primary-color;
+      }
+
+      &.is-active::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: $primary-color;
+        border-radius: 15px;
+        bottom: 0;
+      }
+    }
+  }
+}

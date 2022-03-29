@@ -1,10 +1,9 @@
 .review {
-  &__stars {
-    display: flex;
-  }
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
 
   &__count {
-    padding-right: 16px;
-    font-size: 10px;
+    font-size: $font-size-small;
   }
 }

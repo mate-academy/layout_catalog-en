@@ -1,12 +1,12 @@
 .buy {
-  display: inline-block;
+  display: flex;
   background-color: $main-card-color;
   border-radius: 5px;
   border: 1px solid transparent;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  padding: 12px 69px 12px 70px;
+  padding: 11px 69px 11px 70px;
   color: $hover-color;
   text-decoration: none;
   text-transform: uppercase;

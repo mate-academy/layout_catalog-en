@@ -1,0 +1,22 @@
+.buy {
+  display: flex;
+  background-color: $main-card-color;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  width: 166px;
+  height: 40px;
+  color: $hover-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy:hover {
+  background-color: $hover-color;
+  color: $main-card-color;
+  border-color: $main-card-color;
+}

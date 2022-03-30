@@ -9,7 +9,6 @@ html {
     display: flex;
     list-style-type: none;
     padding-left: 0;
-    font-weight: 500;
   }
 
   &__item {
@@ -22,11 +21,14 @@ html {
   }
 
   &__link {
+    display: inline-block;
     height: 60px;
     line-height: 60px;
     color: #060b35;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: 500;
+    font-size: $normal-font;
   }
 
   &__link:hover {

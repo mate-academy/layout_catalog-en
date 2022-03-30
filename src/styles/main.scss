@@ -1,3 +1,21 @@
+@import "./utils/variables";
+@import "./blocks/header";
+@import "./blocks/nav";
+
+@import "./blocks/main_block";
+@import "./blocks/page";
+@import "./blocks/container";
+@import "./blocks/review";
+@import "./blocks/card";
+@import "./blocks/price";
+@import "./blocks/stars";
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
+  box-sizing: border-box;
   margin: 0;
+  color: $primary-text-color;
 }

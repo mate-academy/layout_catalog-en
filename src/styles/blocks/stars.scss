@@ -5,12 +5,12 @@
     background-image: url(../images/star.svg);
     height: 12px;
     width: 12px;
-    margin: 2px 4px;
+    margin: 3px 4px;
     background-size: cover;
   }
 
   &__star:first-child {
-    margin-left: 0;
+    margin-left: 2px;
   }
 
   @for $stars from 1 through 5 {

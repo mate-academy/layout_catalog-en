@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: $normal-font-weight;
+  font-size: $normal-font-size;
+  line-height: $normal-line-height;
+  color: var(--text-secondary-color);
+}

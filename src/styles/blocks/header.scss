@@ -1,0 +1,23 @@
+.page {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  &__header {
+    margin: 0 auto;
+  }
+}
+
+.header {
+  max-width: 1200px;
+  padding: 0 50px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__link {
+  display: flex;
+  align-items: center;
+}

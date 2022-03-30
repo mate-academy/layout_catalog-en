@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: $card-width;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
   padding: 32px 16px 16px;
@@ -15,14 +15,14 @@
     @include fonts($size: 12px, $line: 18px);
     color: $secondary-color;
     margin-bottom: 4px;
-    margin-top: 0;
+    margin-top: $removing-default-margins;
   }
 
   &__description {
     @include fonts($weight: 400);
     color: #616070;
     margin-bottom: 16px;
-    margin-top: 0;
+    margin-top: $removing-default-margins;
   }
 
   &__ratings {
@@ -35,7 +35,7 @@
   &__reviews {
     @include fonts($weight: 400);
     color: $secondary-color;
-    margin: 0;
+    margin: $removing-default-margins;
   }
 
   &__price {
@@ -47,13 +47,13 @@
     &-title {
       font-weight: 400;
       color: #616070;
-      margin: 0;
+      margin: $removing-default-margins;
     }
   }
 
   &__amount {
     @include fonts($size: 16px, $weight: 700, $line: 18px);
-    margin: 0;
+    margin: $removing-default-margins;
   }
 
   &__button {

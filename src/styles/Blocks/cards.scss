@@ -9,10 +9,10 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  width: 944px;
+  width: (4 * $card-width) + (3 * $card-horizontal-spacing);
 
   &__card {
-    margin-right: 48px;
+    margin-right: $card-horizontal-spacing;
     margin-bottom: 46px;
 
     &:nth-child(4n) {

@@ -27,7 +27,9 @@
   &__reviews {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 16px;
+    line-height: 16px;
   }
 
   &__price {

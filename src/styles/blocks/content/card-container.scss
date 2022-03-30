@@ -2,7 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   width: (4 * $card-width) + (3 * $card-gapX);
-  padding: 5px 0 70px;
+  padding: 50px 0 70px;
+
+  &:nth-child(-n+4) {
+    padding-top: 0;
+  }
 
   &__card {
     border: 1px solid $light-grey;

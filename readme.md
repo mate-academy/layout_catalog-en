@@ -3,6 +3,7 @@ Replace `<your_account>` with your Github username and copy the links to Pull Re
 - [DEMO LINK](https://efdalyalcin.github.io/layout_catalog-en/)
 - [TEST REPORT LINK](https://efdalyalcin.github.io/layout_catalog-en/report/html_report/)
 
+
 > Follow [this instructions](https://github.com/mate-academy/layout_task-guideline#how-to-solve-the-layout-tasks-on-github)
 ___
 > Write styles in `src/styles/main.scss` instead of `src/style.css`.

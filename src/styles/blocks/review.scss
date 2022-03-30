@@ -1,0 +1,18 @@
+@import "../utils/variables";
+
+.review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: $card-inside-width;
+
+  line-height: $line-height-small;
+}
+
+.review__text {
+  display: flex;
+
+  font-size: $font-size-small;
+  color: $p-dark-color;
+}

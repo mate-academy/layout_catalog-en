@@ -10,14 +10,13 @@
 
   &__image {
     display: block;
-    margin: 0 3px 40px;
+    margin: 0 auto 40px;
     height: 134px;
     width: 160px;
   }
 
   &__title {
     margin: 0 0 4px;
-
     font-size: 12px;
     line-height: 18px;
     font-weight: 500;
@@ -25,7 +24,7 @@
   }
 
   &__id {
-    margin: 0 0 16px;
+    margin-bottom: 16px;
 
     font-size: 10px;
     font-weight: 400;
@@ -37,7 +36,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 24px;
+    margin-bottom: 24px;
   }
 
   &__review-value {

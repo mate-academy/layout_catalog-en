@@ -1,7 +1,7 @@
 .review {
   display: flex;
   justify-content: space-between;
-  padding-top: 18px;
+  align-items: center;
 
   &__count {
     font-size: $font-size-small;

@@ -2,8 +2,9 @@
   display: flex;
   flex-wrap: wrap;
 
-  width: $cardsRowAmount * $cardWidth 
-    + 2 * $catalogPaddingX + ($cardsRowAmount - 1) * $gapX;
+  width: $cardsRowAmount * $cardWidth
+    + ($cardsRowAmount - 1) * $gapX
+    + 2 * $catalogPaddingX;
 
   padding: 50px $catalogPaddingX;
 

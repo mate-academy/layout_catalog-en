@@ -1,11 +1,11 @@
-@import "variables";
+@import "./../variables.scss";
 
 .main_container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   box-sizing: border-box;
-  max-width: 1024px;
+  width: calc((4 * $card-width) + (3 * $card-spacing));
   margin: 0 auto;
   padding: 50px 40px;
 }

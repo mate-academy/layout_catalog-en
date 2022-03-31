@@ -1,4 +1,4 @@
-@import "variables";
+@import "./../variables.scss";
 
 .card {
   display: flex;
@@ -9,7 +9,7 @@
   background: $white;
   border-radius: $border-radius;
   padding: 32px 16px 16px;
-  margin: 0 48px 46px 0;
+  margin: 0 $card-spacing 46px 0;
 
   &__image {
     width: 160px;

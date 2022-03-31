@@ -34,11 +34,11 @@
   color: #00acdc;
 }
 
-.page-is-active {
+.nav-is-active {
   color: #00acdc;
 }
 
-.page-is-active::after {
+.nav-is-active::after {
   content: "";
 
   position: absolute;

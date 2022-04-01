@@ -5,8 +5,8 @@
   flex-flow: wrap;
   width: ($cards-amount * $card-width)
     + ($cards-amount - 1) * $card-between-hor;
-  padding: 50px $main-padding-hor;
-  margin: 0 auto;
+  padding: 50px 0;
+  margin: auto;
 
   .card {
     box-sizing: border-box;

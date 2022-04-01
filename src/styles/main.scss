@@ -1,3 +1,24 @@
-body {
+@import "utils/variables";
+@import "blocks/navigation/header";
+@import "blocks/navigation/nav";
+@import "blocks/content/main.scss";
+@import "blocks/content/card-container";
+@import "blocks/content/card.scss";
+@import "blocks/content/review.scss";
+@import "blocks/content/stars.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+  font-size: $font-size-regular;
+  color: $dark-blue;
+}
+
+body,
+h1,
+p {
   margin: 0;
 }

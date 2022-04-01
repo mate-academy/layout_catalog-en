@@ -27,6 +27,10 @@
     text-transform: uppercase;
     font-weight: $medium-font-weight;
 
+    &:hover {
+      color: $button-main-color;
+    }
+
     &--active {
       color: $button-main-color;
 

@@ -1,3 +1,13 @@
-body {
+/* Styles go here */
+@import "./blocks/header";
+@import "./blocks/card";
+
+html {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body,
+.nav__list {
   margin: 0;
 }

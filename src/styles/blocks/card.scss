@@ -2,18 +2,18 @@
 
 .main {
   display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  box-sizing: border-box;
-  // margin: 51px 129px 0;
+  flex-flow: wrap;
+  width: ($cards-amount * $card-width)
+    + ($cards-amount - 1) * $card-between-hor;
+  padding: 50px $main-padding-hor;
   margin: 0 auto;
-  max-width: (4 * $card-width) + (4 * $card-between-hor);
-  padding: 50px 0;
 
-  &__card {
+  .card {
+    box-sizing: border-box;
     width: $card-width;
     border: 1px solid $border-color;
     border-radius: 5px;
+    padding: 32px 16px 16px;
     margin-right: $card-between-hor;
     margin-bottom: $card-between-ver;
 
@@ -22,100 +22,110 @@
     }
 
     &:nth-last-child(-n + 4) {
-      margin-top: 0;
+      margin-bottom: 0;
     }
 
-    .card {
-      &__image img {
-        // width: 162px;
-        height: 134px;
-        margin: 32px 20px 0;
+    &__image {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__image img {
+      width: 160px;
+      height: 134px;
+    }
+
+    &__title {
+      font-size: 12px;
+      line-height: 18px;
+      font-weight: 500;
+      color: $high-blue-color;
+      padding-top: 40px;
+      margin: 0;
+    }
+
+    &__text {
+      font-size: 10px;
+      font-weight: 400;
+      color: $grey-color;
+      margin-top: 4px;
+      margin-bottom: 8px;
+    }
+
+    &__flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .card__stars {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .stars__star {
+          width: 16px;
+          height: 16px;
+          background-image: url("../images/star.svg");
+          background-repeat: no-repeat;
+          background-position: center;
+          margin-right: 4px;
+        }
       }
 
-      &__title {
-        font-size: 12px;
-        line-height: 18px;
-        font-weight: 500;
-        color: $high-blue-color;
-        margin: 36px 16px 0;
+      .stars--1 .stars__star:nth-child(-n + 1),
+      .stars--2 .stars__star:nth-child(-n + 2),
+      .stars--3 .stars__star:nth-child(-n + 3),
+      .stars--4 .stars__star:nth-child(-n + 4),
+      .stars--5 .stars__star:nth-child(-n + 5) {
+        background-image: url("../images/star-active.svg");
       }
 
-      &__text {
+      .card__review {
         font-size: 10px;
         font-weight: 400;
-        color: $grey-color;
-        margin: 4px 84px 16px 16px;
+        color: $high-blue-color;
       }
+    }
 
-      .flex {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin: 17px 16px;
+    &__price {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 400;
+      margin-top: 15px;
+      color: $grey-color;
 
-        &__rating {
-          display: flex;
-
-          .star {
-            width: 16px;
-            height: 16px;
-            background-image: url("../images/star-active.svg ");
-            background-repeat: no-repeat;
-            margin-right: 4px;
-
-            &:nth-child(5) {
-              background-image: url("../images/star.svg ");
-            }
-          }
-        }
-
-        &__review {
-          font-size: 10px;
-          font-weight: 400;
-          color: $high-blue-color;
-        }
-      }
-
-      &__price {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 12px;
-        font-weight: 400;
-        margin: 0 16px 16px;
-        color: $grey-color;
-
-        .bold {
-          font-size: 16px;
-          font-weight: 600;
-          color: $high-blue-color;
-        }
-      }
-
-      &__button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: background-color 0.3s ease-in-out;
-        font-size: 14px;
+      .card__priceBold {
+        font-size: 16px;
         font-weight: 700;
-        width: 166px;
-        height: 40px;
-        background-color: $primary-color;
-        border: 0;
-        border-radius: 5px;
-        color: $default-color;
-        text-transform: uppercase;
-        margin: 0 16px 16px;
-        padding: 0;
-        cursor: pointer;
+        color: $high-blue-color;
+      }
+    }
 
-        &:hover {
-          background-color: $default-color;
-          color: $primary-color;
-          border: 1px solid $primary-color;
-        }
+    &__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      transition: background-color 0.3s ease-in-out;
+      font-size: 14px;
+      font-weight: 700;
+      width: 164px;
+      padding: 10px 0;
+      text-decoration: none;
+      line-height: 18px;
+      background-color: $primary-color;
+      border-radius: 5px;
+      color: $default-color;
+      text-transform: uppercase;
+      margin-top: 16px;
+      border: 1px solid $primary-color;
+
+      &:hover {
+        background-color: $default-color;
+        color: $primary-color;
       }
     }
   }

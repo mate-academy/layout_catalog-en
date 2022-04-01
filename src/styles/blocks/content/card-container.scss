@@ -4,15 +4,15 @@
   width: (4 * $card-width) + (3 * $card-gapX);
   padding: 50px 0 70px;
 
-  &:nth-child(-n+4) {
-    padding-top: 0;
-  }
-
   &__card {
     border: 1px solid $light-grey;
     border-radius: 5px;
     margin-top: $card-gapY;
     margin-right: $card-gapX;
+
+    &:nth-child(-n+4) {
+      margin-top: 0;
+    }
 
     &:nth-child(4n) {
       margin-right: 0;

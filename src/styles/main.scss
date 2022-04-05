@@ -1,10 +1,10 @@
-@import "./blocks/card";
-@import "./blocks/stars";
-@import "./blocks/reset";
-@import "./blocks/header";
-@import "./blocks/catalog";
-@import "./blocks/variables";
-@import "./blocks/page";
+@import "./card.scss";
+@import "./stars.scss";
+@import "./blocks/reset.scss";
+@import "./header.scss";
+@import "./catalog.scss";
+@import "./blocks/variables.scss";
+@import "./blocks/page.scss";
 
 body {
   margin: 0;

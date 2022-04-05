@@ -1,0 +1,25 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $gapY $gapX;
+
+  width: $cardsInRow * 200px + 2 * $catalogPaddingX
+    + ($cardsInRow - 1) * $gapX;
+
+  padding: 50px $catalogPaddingX;
+
+  $cardsInRow: 4;
+
+  &__cards {
+    margin-bottom: $gapY;
+    margin-right: $gapX;
+
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+
+    &__:nth-last-child(-n+4) {
+      margin-bottom: 0;
+    }
+  }
+}

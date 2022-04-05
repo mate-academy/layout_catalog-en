@@ -3,9 +3,9 @@
   flex-wrap: wrap;
   gap: $gapY $gapX;
 
-  width: $cardsInRow * $cardWidth + 2 * $catalogPaddingX
+  width: $cardsInRow * 200px + 2 * $catalogPaddingX
     + ($cardsInRow - 1) * $gapX;
-    
+
   padding: 50px $catalogPaddingX;
 
   $cardsInRow: 4;

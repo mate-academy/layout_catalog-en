@@ -1,16 +1,16 @@
-/* colors */
-$colorPrimary:#00acdc;
-$colorAccent: #060b35;
-$colorText: #616070;
+$text-primary-color: #060b35;
+$text-secondary-color: #616070;
 
-/* timing */
-$transitionDuration: 0.5s;
+$primary-style-color: #00acdc;
 
-/*catalog grid */
-$gapX: 48px;
-$gapY: 46px;
+$product-width: 200px;
+$products-margin-right: 48px;
+$products-margin-top: 46px;
 
-$cardWidth: 200px;
+$font-weight-normal: 400;
+$font-weight-med: 500;
+$font-weight-bold: 700;
 
-$catalogPaddingX: 40px;
-$cardsRowAmount: 4;
+$primary-sm-font: 12px;
+$secondary-extra-sm-font: 10px;
+$width: (4*$product-width) + (3* $products-margin-right);

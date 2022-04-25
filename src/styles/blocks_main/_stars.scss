@@ -18,14 +18,11 @@
     margin: auto 0 0 auto;
   }
 
-  &--1 :nth-child(-n+4),
-  &--2 :nth-child(-n+4),
-  &--3 :nth-child(-n+4),
+  &--1 :nth-child(1),
+  &--2 :nth-child(-n+2),
+  &--3 :nth-child(-n+3),
   &--4 :nth-child(-n+4),
-  &--5 :nth-child(-n+4),
-  &--6 :nth-child(-n+4),
-  &--7 :nth-child(-n+4),
-  &--8 :nth-child(-n+4) {
+  &--5 :nth-child(-n+5) {
     background-image: url("../images/star-active.svg");
   }
 }

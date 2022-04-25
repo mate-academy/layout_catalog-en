@@ -1,0 +1,15 @@
+@import "./../variables.scss";
+
+.price {
+  &__name {
+    font-weight: 400;
+    color: $color-secondary;
+    font-size: 12px;
+  }
+
+  &__cost {
+    font-size: $price-font-size;
+    font-weight: 700;
+    color: $color-main-accent;
+  }
+}

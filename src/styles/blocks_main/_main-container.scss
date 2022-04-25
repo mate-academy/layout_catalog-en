@@ -1,0 +1,10 @@
+@import "./../variables.scss";
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: (4 * $card-width) + (3 * $card-spacing);
+  margin: 0 auto;
+  padding: 50px 40px;
+}

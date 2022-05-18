@@ -1,0 +1,8 @@
+.rate {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  &__review {
+    font-size: $font-size-small;
+  }
+}

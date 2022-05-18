@@ -1,0 +1,12 @@
+.cost {
+  &__price {
+    font-size: $font-size-mid;
+    color: $color-secondary;
+  }
+  
+  &__amount {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $color-main;
+  }
+}

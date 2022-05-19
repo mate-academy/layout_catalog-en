@@ -6,6 +6,7 @@
 }
 
 body {
+  min-width: 1024px;
   font-family: Roboto, Helvetica, sans-serif;
 }
 
@@ -20,4 +21,4 @@ body {
 @import "./blocks/card";
 @import "./blocks/stars";
 @import "./blocks/cost";
-@import "./blocks/rates";
+@import "./blocks/rate";

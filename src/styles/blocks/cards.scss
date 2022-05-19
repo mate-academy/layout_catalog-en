@@ -1,15 +1,16 @@
 .cards {
-  @include flex-elements(space-between);
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 960px;
   margin: 0 auto;
+  padding-top: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  width: ($card-space * 2 + $card-size) * 4;
   &__card {
-    @include flex-elements(flex-start, center, column);
+    @include flex-elements(center, center, column);
     padding: 2rem 1rem 1rem;
     border: 1px solid #f3f3f3;
     border-radius: 5px;
     color: $color-main;
-    max-width: 200px;
+    flex-basis: 200px;
+    margin: 48px $card-space 0;
   }
 }

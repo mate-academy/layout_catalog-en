@@ -1,7 +1,6 @@
 .nav {
   position: absolute;
   right: 50px;
-
   &__list {
     display: flex;
     justify-content: flex-end;
@@ -23,7 +22,7 @@
     line-height: 3.75rem;
     text-transform: uppercase;
     text-decoration: none;
-    color: #000;
+    color: $color-main;
     padding: 23px 0;
   }
 

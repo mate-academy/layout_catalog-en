@@ -7,7 +7,7 @@
 
 @mixin flex-elements($j-content, $a-items: null, $f-direction: null) {
   display: flex;
-  flex-direction: $f-direction;
   justify-content: $j-content;
   align-items: $a-items;
+  flex-direction: $f-direction;
 }

@@ -1,5 +1,8 @@
 .logo {
   height: 40px;
   /* center vertically */
-  @include vertical-center;
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
 }

@@ -1,11 +1,4 @@
-@mixin vertical-center {
-  position: absolute;
-  top: 50%;
-  left: 50px;
-  transform: translateY(-50%);
-}
-
-@mixin flex-elements($j-content, $a-items: null, $f-direction: null) {
+@mixin flex-element($j-content, $a-items: null, $f-direction: null) {
   display: flex;
   justify-content: $j-content;
   align-items: $a-items;

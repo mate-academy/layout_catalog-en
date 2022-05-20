@@ -3,8 +3,7 @@
   right: 50px;
   font-weight: 500;
   &__list {
-    display: flex;
-    justify-content: flex-end;
+    @include flex-element(flex-end);
     list-style-type: none;
   }
 
@@ -17,11 +16,11 @@
   }
 
   &__link {
+    padding: 23px 0;
     line-height: 3.75rem;
     text-transform: uppercase;
     text-decoration: none;
     color: $color-main;
-    padding: 23px 0;
   }
 
   &__link:hover {

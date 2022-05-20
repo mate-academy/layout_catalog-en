@@ -23,20 +23,20 @@
 
   /* reviews */
   &__rate {
-    margin-top: 16px;
     align-items: center;
+    margin-top: 16px;
   }
 
   &__cost {
-    padding: calc(1.5rem - 1px) 0 1rem;
+    @include flex-element(space-between);
     align-items: center;
-    @include flex-elements(space-between);
     width: 100%;
+    padding: calc(1.5rem - 1px) 0 1rem;
   }
   
   /* link buy */
-  &__link {
-    
+  &__link-buy {
+    display: block;
     width: 166px;
     height: 40px;
     border-radius: 5px;
@@ -47,13 +47,11 @@
     font-size: 14px;
     background: $color-light-blue;
     color: #fff;
-
     text-align: center;
     line-height: 38px;
-    display: block;
   }
   
-  &__link:hover {
+  &__link-buy:hover {
     color: $color-light-blue;
     background-color: white;
     border-color: $color-light-blue;

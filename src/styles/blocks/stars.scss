@@ -1,6 +1,5 @@
 .stars {
-  display: flex;
-  justify-content: start;
+  @include flex-element(start);
   &__star {
     background: left 25% center url(../images/star.svg) no-repeat;
     width: 16px;

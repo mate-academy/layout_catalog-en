@@ -1,10 +1,10 @@
 .cards {
-  width: calc( (#{$card-space} * 2 + #{$card-size}) * 4 + (100vw - 992px));
+  width: calc( (#{$card-space} * 2 + #{$card-size}) * 4 + calc(100vw - 992px));
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 0 auto;
-  padding: 4px 0 50px;
+  padding: 4px calc( (100vw - 992px) / 2 ) 50px;
   &__card {
     display: flex;
     flex-direction: column;

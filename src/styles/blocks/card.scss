@@ -1,6 +1,8 @@
 .card {
   &__imac {
+    width: 160px;
     height: 134px;
+    align-self: center;
   }
 
   /* mac description */
@@ -12,10 +14,11 @@
   }
 
   &__code {
-    align-self: flex-start;
+    align-self: baseline;
     padding-top: 4px;
     color: $color-secondary;
     font-size: $font-size-small;
+    letter-spacing: 0;
   }
 
   /* reviews */
@@ -24,14 +27,8 @@
     align-items: center;
   }
 
-  /* stars */
-  &__stars {
-    justify-content: space-between;
-    width: 58%;
-  }
-
   &__cost {
-    padding: 1.5rem 0 1rem;
+    padding: calc(1.5rem - 1px) 0 1rem;
     align-items: center;
     @include flex-elements(space-between);
     width: 100%;
@@ -39,8 +36,7 @@
   
   /* link buy */
   &__link {
-    @include flex-elements(center, center);
-  
+    
     width: 166px;
     height: 40px;
     border-radius: 5px;
@@ -51,6 +47,10 @@
     font-size: 14px;
     background: $color-light-blue;
     color: #fff;
+
+    text-align: center;
+    line-height: 38px;
+    display: block;
   }
   
   &__link:hover {

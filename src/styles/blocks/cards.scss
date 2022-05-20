@@ -1,18 +1,18 @@
 .cards {
-  margin: 0 auto;
+  width: calc( (#{$card-space} * 2 + #{$card-size}) * 4 + (100vw - 992px));
   display: flex;
   flex-wrap: wrap;
-  width: ($card-space * 2 + $card-size) * 4;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 4px 0 50px;
   &__card {
-    @include flex-elements(flex-start, center, column);
+    display: flex;
+    flex-direction: column;
+    width: $card-size;
     padding: 2rem 1rem 1rem;
     border: 1px solid #f3f3f3;
     border-radius: 5px;
     color: $color-main;
-    flex-basis: 200px;
-    margin: 50px $card-space 0;
-  }
-  &__card:nth-child(n + 5) {
-    margin-top: 46px;
+    margin: 46px $card-space 0;
   }
 }

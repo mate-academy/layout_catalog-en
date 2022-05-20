@@ -6,9 +6,6 @@
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    @media only screen and (max-width: $layout-breakpoint-mid) {
-      display: none;
-    }
   }
 
   &__item {

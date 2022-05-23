@@ -1,0 +1,59 @@
+.card {
+  &__imac {
+    width: 160px;
+    height: 134px;
+    align-self: center;
+  }
+
+  /* mac description */
+  &__title {
+    padding-top: 40px;
+    line-height: 18px;
+    font-size: $font-size-mid;
+    font-weight: 500;
+  }
+
+  &__code {
+    align-self: baseline;
+    padding-top: 4px;
+    color: $color-secondary;
+    font-size: $font-size-small;
+    letter-spacing: 0;
+  }
+
+  /* reviews */
+  &__rate {
+    align-items: center;
+    margin-top: 16px;
+  }
+
+  &__cost {
+    @include flex-element(space-between);
+    align-items: center;
+    width: 100%;
+    padding: calc(1.5rem - 1px) 0 1rem;
+  }
+  
+  /* link buy */
+  &__link-buy {
+    display: block;
+    width: 166px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 14px;
+    background: $color-light-blue;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+  }
+  
+  &__link-buy:hover {
+    color: $color-light-blue;
+    background-color: white;
+    border-color: $color-light-blue;
+  }
+}

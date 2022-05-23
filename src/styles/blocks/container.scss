@@ -1,0 +1,16 @@
+.container {
+  @include flex-element(flex-start);
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  padding: 4px calc( #{$cont-space} / 2 ) 50px;
+  &__card {
+    @include flex-element(null, null, column);
+    width: $card-size;
+    margin: 46px $card-space 0;
+    padding: 2rem 1rem 1rem;
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    color: $color-main;
+  }
+}

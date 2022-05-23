@@ -1,7 +1,7 @@
 .container {
   @include flex-element(flex-start);
   flex-wrap: wrap;
-  width: calc((#{$card-space} * 2 + #{$card-size}) * 4 + #{$cont-space});
+  width: 100%;
   margin: 0 auto;
   padding: 4px calc( #{$cont-space} / 2 ) 50px;
   &__card {

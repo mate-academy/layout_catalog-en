@@ -9,4 +9,4 @@ $color-main: #060b35;
 $color-secondary: #616070;
 $card-space: 24px;
 $card-size: 200px;
-$cont-space: calc( 100vw - 4 * (#{$card-size} + #{$card-space} * 2 ));
+$cont-space: calc( 100% - 4 * (#{$card-size} + #{$card-space} * 2 ));

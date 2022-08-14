@@ -1,9 +1,14 @@
 .page {
-  &__header {
-    margin: 0 auto;
-  }
+  box-sizing: border-box;
 
-  &__main-content {
-    margin: 0 auto;
+  &__container {
+
+    @media (max-width: 1024px) {
+      margin-left: 40px;
+    }
+
+    @media (min-width: 1025px) {
+      margin-left: 128px;
+    }
   }
 }

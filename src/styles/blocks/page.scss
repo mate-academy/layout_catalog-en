@@ -1,0 +1,14 @@
+.page {
+  box-sizing: border-box;
+
+  &__container {
+
+    @media (max-width: 1024px) {
+      margin-left: 40px;
+    }
+
+    @media (min-width: 1025px) {
+      margin-left: 128px;
+    }
+  }
+}
